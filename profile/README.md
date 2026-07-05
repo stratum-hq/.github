@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/stratum-hq/Stratum/master/assets/stratumlogo.png" alt="Stratum" width="120" />
+  <img src="https://raw.githubusercontent.com/stratum-hq/Stratum/main/assets/stratumlogo.png" alt="Stratum" width="120" />
 </p>
 
 <h2 align="center">Stratum HQ</h2>
@@ -44,9 +44,7 @@ await stratum.setConfig(org.id, "seat_limit", { value: 25 });
 
 | Repo | Description |
 |------|-------------|
-| [Stratum](https://github.com/stratum-hq/Stratum) | Core monorepo — 12 TypeScript packages, control plane, CLI, React components, docs site |
-| [stratum-python](https://github.com/stratum-hq/stratum-python) | Python SDK (auto-generated from OpenAPI) |
-| [stratum-go](https://github.com/stratum-hq/stratum-go) | Go SDK (auto-generated from OpenAPI) |
+| [Stratum](https://github.com/stratum-hq/Stratum) | Core monorepo — 14 TypeScript packages, control plane, CLI, React components, docs site |
 
 ### Packages
 
@@ -74,14 +72,14 @@ await stratum.setConfig(org.id, "seat_limit", { value: 25 });
 - **GDPR compliance** — data export (Article 20) and hard purge (Article 17)
 - **Webhooks** — HMAC-signed lifecycle events with retry and dead-letter queue
 - **Multi-region** — region CRUD with tenant migration
-- **310+ tests** — validated against real PostgreSQL 16
+- **700+ tests** — validated against real PostgreSQL 16, MongoDB 7, and MySQL 8
 
 ### Links
 
 - [Documentation](https://docs.stratum-hq.org) — guides, API reference, package docs
 - [Landing Page](https://stratum-hq.org) — product overview
 - [npm](https://www.npmjs.com/org/stratum-hq) — all published packages
-- [Contributing](https://github.com/stratum-hq/Stratum/blob/master/CONTRIBUTING.md) — setup, code style, PR guidelines
+- [Contributing](https://github.com/stratum-hq/Stratum/blob/main/CONTRIBUTING.md) — setup, code style, PR guidelines
 
 ### License
 
