@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/stratum-hq/Stratum/main/assets/stratumlogo.png" alt="Stratum" width="120" />
+  <img src="https://raw.githubusercontent.com/stratum-hq/.github/main/profile/stratum-mark.png" alt="Stratum" width="120" />
 </p>
 
 <h2 align="center">Stratum HQ</h2>
