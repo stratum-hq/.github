@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/stratum-hq/.github/main/profile/stratum-mark.png" alt="Stratum" width="120" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/stratum-hq/.github/main/profile/stratum-lockup-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/stratum-hq/.github/main/profile/stratum-lockup-light.png" />
+    <img src="https://raw.githubusercontent.com/stratum-hq/.github/main/profile/stratum-lockup-light.png" alt="Stratum" width="259" />
+  </picture>
 </p>
 
 <h2 align="center">Stratum HQ</h2>
@@ -11,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-100%25-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/PostgreSQL-16+-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/badge/License-MIT-FF5B1F?style=flat-square" alt="License" />
   <img src="https://img.shields.io/badge/npm-%40stratum--hq%2F*-cb3837?style=flat-square&logo=npm&logoColor=white" alt="npm" />
 </p>
 
