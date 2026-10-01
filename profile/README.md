@@ -44,7 +44,7 @@ await stratum.setConfig(org.id, "seat_limit", { value: 25 });
 
 | Repo | Description |
 |------|-------------|
-| [Stratum](https://github.com/stratum-hq/Stratum) | Core monorepo: 14 TypeScript packages, control plane, CLI, React components, docs site |
+| [Stratum](https://github.com/stratum-hq/Stratum) | Core monorepo: 15 TypeScript packages, control plane, CLI, React components, docs site |
 
 ### Packages
 
@@ -62,7 +62,7 @@ await stratum.setConfig(org.id, "seat_limit", { value: 25 });
 
 ### Key Features
 
-- **Tenant hierarchy:** tree structure with ltree, up to 20 levels deep
+- **Tenant hierarchy:** tree structure with ltree
 - **Config inheritance:** values flow root to leaf, parents can lock keys
 - **Permission delegation:** LOCKED / INHERITED / DELEGATED with cascade revocation
 - **ABAC:** attribute-based access control with 9 operators, hierarchical policy inheritance
